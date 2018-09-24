@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = string.IsNullOrEmpty(LojaCorp.Control.Company._Company.Title) ? LojaCorp.Control.Company._Company.NameStore : LojaCorp.Control.Company._Company.Title;
+    Layout = "~/Views/Shared/Base/_Layout.cshtml";
+}
+
+
+<!-- ~/Views/Shared/Blocks/Banner/_FullBanner.cshtml -->
+@Html.Action("FullBanner", "Banner")
+
+<!-- ~/Views/Shared/Blocks/_InfoBar.cshtml -->
+@Html.Partial("Blocks/_InfoBar")
+
+<div class="featuredProducts">
+    <!-- ~/Views/Shared/Blocks/Product/_FeaturedProducts.cshtml -->
+    @Html.Action("FeaturedProducts", "Product")
+</div>
+
+<!-- ~/Views/Shared/Blocks/_CentralHalfBanner.cshtml -->
+@Html.Action("CentralHalfBanner", "Banner")
+
+<!-- ~/Views/Shared/Blocks/Group/_Groups.cshtml -->
+@Html.Action("Group", "Group")
+
+
+<!-- Alk -->
+	
+	<div class="home-conheca-div">
+		<div class="home-conheca">
+			<div><img src="https://alkmarketing.plataformaneo.com.br/assets/image/alk/icone-cursos.jpg"></div>
+			<div><h2>Nossos Cursos</h2></div>
+			<div><p>Confira aqui nossos cursos oferecidos em parceria com o Instituto Brasileiro de Ciências Aplicadas ao Ozônio</p></div>
+			<div class="bt"><input type="button" value="Ver mais" onclick="https://alkmarketing.plataformaneo.com.br/categoria/cursos"></div>
+		</div>
+		<div class="home-conheca">
+			<div><img src="https://alkmarketing.plataformaneo.com.br/assets/image/alk/icone-quemsomos.jpg"></div>
+			<div><h2>Quem Somos</h2></div>
+			<div><p>A Ozônio Line nasceu do ideal de facilitar o acesso ao ozônio para todos. Desde 2011 produzimos no Brasil o que há de melhor em aparelhos geradores de ozônio.</p></div>
+			<div class="bt"><input type="button" value="Ver mais" onclick="https://alkmarketing.plataformaneo.com.br/institucional/628/2152"></div>
+		</div>
+		<div class="home-conheca">
+			<div><img src="https://alkmarketing.plataformaneo.com.br/assets/image/alk/icone-blog.jpg"></div>
+			<div><h2>Notícias e Eventos</h2></div>
+			<div><p>Acompanhe as notícias e eventos do setor e se atualize com as principais aplicações do Ozônio Medicinal e em ambientes.</p></div>
+			<div class="bt"><input type="button" value="Ver mais" onclick="#"></div>
+		</div>
+	</div>
+
+<!-- Alk -->
+
+
+<!-- ~/Views/Shared/Blocks/_TopSellers.cshtml -->
+@Html.Action("TopSellers", "Product")
+
+<!-- ~/Views/Shared/Blocks/Banner/_FooterHalfBanner.cshtml -->
+@Html.Action("FooterHalfBanner", "Banner")
+
+<!-- ~/Views/Shared/Blocks/Brand/_Brands.cshtml -->
+<!-- @Html.Action("Brand", "Product") -->
+

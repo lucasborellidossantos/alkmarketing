@@ -1,0 +1,105 @@
+body, p {font-family: Raleway,sans-serif;}
+
+/* Home */
+.home-conheca-div {
+	width: 100%;
+    height: 600px;
+}
+.home-conheca {    
+	width: 33%;
+    float: left;
+    padding: 5% !important;
+    text-align: center !important;
+}
+	.home-conheca h2 {
+		padding: 7%;
+	}
+	.home-conheca .bt {padding: 7%;}
+	.home-conheca .bt input {
+		padding: 9px;
+	    width: 200px;
+	    border: 0px;
+	    color: #fff;
+    	background-color: #00C1CF;
+    	cursor: pointer;
+	}
+	.home-conheca .bt input:hover {
+		color: #f2f2f2;
+    	background-color: #009ba6;
+    	cursor: pointer;
+	}
+
+
+/* quem somos */
+.quem-somos2 {
+	background: #f0f5f7 !important;
+    height: 600px;
+    width: 100%;
+    padding: 5%;
+}
+.missao {
+	width: 33%; 
+	float: left;
+	background: #ffffff !important;
+    padding: 5%;
+    margin-right: 5px;
+}
+	.missao h2 {
+		padding: 7%;
+	}
+.visao {
+	width: 33%; 
+	float: left;
+	background: #ffffff !important;
+    padding: 5%;
+    margin-right: 5px;
+}
+	.visao h2 {
+		padding: 7%;
+	}
+.valores {
+	width: 33%; 
+	float: left;
+	background: #ffffff !important;
+    padding: 5%; 
+}
+	.valores h2 {
+		padding: 7%;
+	}
+
+
+
+
+
+/* responsivo */
+@media screen and (max-width: 1024px){
+	
+	/* Home */
+	.home-conheca-div {
+		width: 100%;
+	}
+	.home-conheca {    
+		width: 100%;
+	    float: left;
+	    padding: 5% !important;
+	    text-align: center !important;
+	}
+		.home-conheca h2 {
+			padding: 7%;
+		}
+		.home-conheca .bt {padding: 7%;}
+		.home-conheca .bt input {
+			padding: 9px;
+		    width: 200px;
+		    border: 0px;
+		    color: #fff;
+	    	background-color: #00C1CF;
+	    	cursor: pointer;
+		}
+		.home-conheca .bt input:hover {
+			color: #f2f2f2;
+	    	background-color: #009ba6;
+	    	cursor: pointer;
+		}
+
+}	
